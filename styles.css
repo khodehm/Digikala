@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "ykan";
+  src: url("./fonts/ykan/IRANYekanRegular.ttf");
+}
+
+body {
+  font-family: "ykan";
+  background-color: #f5f5f5;
+}
+
+header {
+  z-index: 2;
+}
+
+.logo {
+  width: 70px;
+}
+.offcanvas-start {
+  width: 250px;
+}
+input::placeholder {
+  font-size: 0.75rem;
+}
+.input {
+  padding-right: 35px;
+  background-color: #f0f0f1;
+  height: 32px;
+  width: 100%;
+}
+.serach {
+  top: 9px;
+  right: 5px;
+}
+.sgin-in {
+  font-size: 0.75rem;
+}
+.choose-city {
+  font-size: 0.7rem;
+}
+.sgin-in-md {
+  font-size: 00.75rem;
+}
+
+.section_one,
+.section_tow {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.main-section {
+  z-index: 2;
+}
+
+.sidebar-link[aria-expanded="true"] .left-icon {
+  transform: rotate(180deg);
+}
+
+.nav-item a {
+  font-size: 0.8rem;
+  color: black !important;
+}
+
+.card-body span {
+  font-size: 0.8rem;
+}
+
+.swiper{
+    flex: 100%;
+}
+
+.swiper .swiper-slide:first-child{
+    width: 147px !important;
+    flex-shrink: 0 ;
+}
+.pishnahad_image img{
+    width: 100%;
+}
+
+.swiper-slide{
+    width: 203px !important;
+    flex-shrink: 0;
+}
+
+.product_container{
+  width: 203px !important;
+}
+
+
+
+
+
+
+
+.product_container img{
+    width:70%;
+}
+
+.swiper-button-next{
+    top: 37%;
+    left: 0% !important;
+    width: 50px;
+    height: 90px;
+  
+}
+
+.swiper-button-next::after{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    font-size: 30px;
+    color: black;
+}
+.swiper-button-prev{
+    top: 37%;
+    right: 0% !important;
+    width: 50px;
+    height: 90px;
+}
+
+.swiper-button-prev::after{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    font-size: 30px;
+    color: black;
+}
+
+
+.progress-bar{
+    background-color: red !important;
+}
+
+.section-tow-products {
+  background: linear-gradient(
+301deg,#6bb927 66%,#9dc44d)
+}
+@media (min-width: 768px) {
+  .input {
+    width: 60%;
+  }
+  .section_one,
+  .section_tow {
+    border-bottom: none;
+  }
+  .logo {
+    width: 100px;
+  }
+  .is-hidden {
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    transform: translateY(-100px);
+  }
+  .is-visible {
+    position: relative;
+    transform: translateY(0);
+    transition: 0.3s;
+    width: 100%;
+  }
+  .nav-item a {
+    font-size: 0.65rem;
+    padding: 0 0.5rem !important;
+    color: black !important;
+  }
+
+  ul li:first-child a {
+    padding-right: 0 !important;
+  }
+  .input {
+    height: 40px;
+  }
+  .serach {
+    top: 12px;
+  }
+  .product_container img{
+      width: 75%;
+      max-width: 170px !important;
+    
+  }
+  .swiper{
+      flex: 80%;
+  }
+  .products_section{
+    width: 100%;
+  }
+
+  
+
+}
+
+
+@media (min-width: 1000px) {
+  .pishnahd{
+    max-width: 253px;
+    padding: 0 30px;
+}
+.pishnahad_container{
+  margin: 0 20px;
+}
+
+.pishnahd{
+  max-width: 253px;
+  padding: 0 30px;
+}
+.pishnahd img{
+  width: 100%;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+  .nav-item a {
+    font-size: 0.78rem;
+    padding: 0 0.5rem !important;
+    color: black !important;
+  }
+
+  .pishnahad_container{
+      margin: 0 20px;
+  }
+ 
+  .pishnahd{
+      max-width: 253px;
+      padding: 0 30px;
+  }
+  .pishnahd img{
+      width: 100%;
+  }
+  .swiper-slide{
+      width: 253px !important;
+  }
+
+  .product_container{
+    width: 253px !important;
+  } 
+  .swiper .swiper-slide:first-child{
+      margin-right: 0!important;
+  }
+  .discount{
+      font-size: 1rem;
+  }
+}
